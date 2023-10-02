@@ -1,0 +1,272 @@
+body{
+    padding:0;
+    margin:0;
+    font-family:Helvetica;
+}
+
+/*==============HEADER===============*/
+
+#header{
+    position:fixed;
+    top:0px;
+    left:0px;
+    z-index:500;
+    width:100%;
+    height:80px;
+    background-color:rgba(10, 9, 9, 0.929);
+    background-repeat:repeat-x;
+}
+
+h1{
+    text-align:center;
+    font-family:Times;
+    font-size:45px;
+    font-style:italic;
+    color:white;
+    padding-bottom:20px;
+}
+
+/*==============TOP-TABS===============*/
+
+#tabs-top{
+    position:fixed;
+    top:80px;
+    left:0;
+    z-index:500;
+    width:100%;
+    height:40px;
+    background-color:rgba(255, 218, 185, 0.893);
+}
+
+#tabs-top a{
+    text-decoration:none;   
+    text-align:center;
+    float:left;
+    display:block;
+    width:16%;
+    height:40px;
+    font-weight:700;
+    color:IndianRed;
+    padding-top:12px;
+}
+
+#tabs-top a:hover{
+    color:purple;
+}
+
+/*==============MAIN-HOME===============*/
+
+#main-home{
+    margin-top:120px;
+    background-image: url('images/MicrosoftTeams-image-5-scaled.jpg');
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+
+#main-home img{
+    margin-left:190px;
+    margin-top:50px;       
+    border-style:solid;
+    border-radius:40px;
+    padding:5px;
+    background-color:black;
+}
+
+/*==============ABOUT===============*/
+
+h2{
+    text-align:center;
+    font-weight:600;
+    font-family:times;
+    font-size:40px;
+    background-color:rgba(205, 92, 92, 0.668);
+    margin-left:400px;
+    margin-right:400px;
+    color:black;
+}
+
+p{
+    text-align:center;
+    font-family:Helvetica;
+    font-weight:600;
+    margin:10px;
+    padding:20px;
+    background-color:rgba(255, 255, 255, 0.758);
+}
+
+/*==============CONTACT===============*/
+#info-full{
+    margin-top:120px;
+    background-image: url('images/MicrosoftTeams-image-5-scaled\ \(1\).jpg');
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+
+#info-full img{
+    margin-left:480px;
+    margin-top:10px;
+    border-style:solid;
+    border-color:black;
+    background-color:black;
+    border-radius:5px;
+    padding:2px;
+}
+
+#info-full p{
+    margin-left:300px;
+    margin-right:300px;
+    padding:10px;
+}
+
+#info-full p b{
+    color:rgb(212, 0, 0);
+    font-weight: 800;
+}
+
+input{
+    width:100%;
+    height:25px;
+    margin:12px 0;
+    border:1px solid #929292;
+}
+
+textarea{
+    width:100%;
+    height:65px;
+    margin:12px 0;
+    border:1px solid #929292;
+}
+
+.button{
+    display:block;
+    width:100%;
+    background-color:indianred;
+    text-decoration:none;
+    text-align:center;
+    color:white;
+    font-size:16px;
+    font-weight:600;
+    margin:12px 0;
+    padding:8px 0;
+}
+
+/*=================MOVIES===================*/
+
+#main-info{
+    margin-top:120px;
+    background-image: url('images/MicrosoftTeams-image-5-scaled\ \(1\).jpg');
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-color:peachpuff;
+}
+
+#main-info img{
+    margin-left:100px;
+    margin-top:20px;
+    padding-right:70px;
+}
+
+table{
+    border-collapse: collapse;
+    background-color:rgba(255, 255, 255, 0.671);
+    margin-left:200px;
+    margin-right:150px;
+    margin-top:50px;
+}
+
+h4 b{
+    color:rgb(171, 13, 66);
+    text-decoration: underline;
+    font-weight:700;
+}
+
+
+
+h4{
+    margin-left:20px;
+    font-family:Helvetica;
+    font-size:17px;
+}
+
+/*=================INFO===================*/
+
+#info img{
+    margin-left:390px;
+}
+
+#info p{
+    text-align:left;
+    font-weight:700;
+    margin-left:150px;
+    margin-right:150px;
+    margin-bottom:0px;
+    font-family:Helvetica;
+    font-style:italic;
+}
+
+#info b{
+    font-weight:800;
+    color:maroon;
+}
+
+/*=================MAIN===================*/
+
+#main{
+    margin-top:120px;
+    background-image: url('images/MicrosoftTeams-image-5-scaled\ \(1\).jpg');
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-color:peachpuff;
+}
+
+#main img{
+    padding-right:15px;
+}
+
+#main ul{
+    text-align: center;
+    margin-left:450px;
+    margin-right:430px;
+    margin-bottom:0px;
+    padding:12px;
+}
+
+#main p{
+    padding-top:10px;
+    text-align:left;
+    font-size:28px;
+}
+
+#main b{
+    font-weight: 700;
+    font-size: 30px;
+    color:white;
+    background-color:rgba(171, 16, 68, 0.839);
+}
+
+/*=================MAIN-INFO-FULL===================*/
+
+#main-info-full {
+    margin-top:120px;
+    background-image: url('images/MicrosoftTeams-image-5-scaled\ \(1\).jpg');
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-color:peachpuff;
+}
+
+ #main-info-full img{
+    margin-left:320px;
+    border-style: solid;
+    border-color:black;
+    border-radius:20px;
+}
+
+#main-info-full h6{
+    margin-left:220px;
+}
+
+#main-info-full p{
+    margin-left:280px;
+    margin-right:200px;
+    padding:20px;
+}
